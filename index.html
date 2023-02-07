@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme//league.css">
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	<link rel="stylesheet" href="./style.css">
+
+	<!-- JAVASCRIPT -->
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+
+
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-auto-animate>
+  				<h1>Nike</h1>
+			</section>
+			<section data-auto-animate data-transition="zoom">
+  				<h1>Nike</h1>
+  				<h2>Shoe-Collection</h2>
+			</section>
+
+			<section>
+				<h3>Air Force 1´s</h3>
+				<img class="air" src="./img/airforce.jpg">
+			</section>
+
+			<section>
+				<h3>Air Max 270</h3>
+				<img class="zwei" src="./img/270.jpg">
+			</section>
+			
+			<section>
+				<h2>Nike M2K´s</h2>
+				<img class="m2k"src="./img/m2k.jpg">
+			</section>
+
+			<section>
+				<h3>Nike TN´s</h3>
+				<img class="TN" src="./img/nike tns-114mhu.jpg">
+			</section>
+
+			<section>
+				<h3>Nike Dunk Low fog Grey</h3>
+				<img class="foggrey"src="./img/foggrey.webp">
+			</section>
+
+			<section data-transition="slide-in fade-out">
+				<h3>Nike Jordan 1`s White Universities</h3>
+				<img class="white"src="./img/whiteuni.webp">
+			</section>
+
+			<section data-transition="fade-in slide-out">
+				<a href="#/0">Back to start</a>
+			</section>
+		</div>
+	</div>
+
+
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
+
+</html>
